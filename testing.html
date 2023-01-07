@@ -19,11 +19,26 @@
         </li>
       </ul>
     </div>
+    <div class="mx-10 my-10 w-[500px] sm:bg-black sm:text-white md:bg-red-500 md:text-white">
+      <p>Layer Directive</p>
+      <ul>
+        <li>@layer will move that class to that layer
+
+            @layer components {
+                .btn{
+                    this will be inside of component layer even after we write it in orderless manner
+                }
+            }
+            
+        </li>
+        
+      </ul>
+    </div>
     <div class="mx-10 my-10 w-[500px]">
         <button type="button" class="focus:bg-slate-500 active:bg-yellow-400 text-blue-900 bg-red-400 hover:bg-black hover:text-white rounded">Hello Bye</button>
         <button type="button" class="btn">Yellow</button>
         <button type="button" class="btn bg-green-500">Yellow</button>
-        <p>last style in css file will be implemented</p>
+        <p>last style after utilities  in css file will be implemented</p>
     </div>
   </body>
 </html>
