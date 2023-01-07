@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// npx taiwindcss init filename --full
 module.exports = {
   content: [],
   presets: [],
